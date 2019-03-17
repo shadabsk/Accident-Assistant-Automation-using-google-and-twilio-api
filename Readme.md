@@ -89,8 +89,8 @@ Start using the web app by opening the url localhost/Accident-assistant-automati
 
 * **Shadab Shaikh** - *Tweaking with twilio api, tweaking google map api, registration page, Help center page, designing database, architecturing the project, Generating dynamic pre-recorded message*  - [shadabsk](https://github.com/shadabsk)
 * **Obaid Kazi** - *registration page, designing the homepage, work on 'without vehicle module'* 	- [ObaidKazi](https://github.com/ObaidKazi)
-* **Khan Mohammed Rehan** - *Finding the current location, nearby locations, tweaking google map api, architecturing the project* - [rehannk](https://github.com/rehannk)
-* **Mohd Adnan Ansari** - *Full design of the complete system and finding current location* - [adnannet8425](https://github.com/adnannet8425)
+* **Khan Mohammed Rehan** - *Finding the current location, Creating a prototype for nearby locations, tweaking google map api, architecturing the project* - [rehannk](https://github.com/rehannk)
+* **Mohd Adnan Ansari** - *Full design of the complete system and finding current plus nearby location* - [adnannet8425](https://github.com/adnannet8425)
 
 
 ## Acknowledgments
