@@ -96,5 +96,6 @@ Start using the web app by opening the url localhost/Accident-assistant-automati
 ## Acknowledgments
 
 * The template of readme.md was taken from [PurpleBooth](https://github.com/PurpleBooth)
-* Our faculties **Mr. Muhammed Salman Shamsi** *Asst. Prof Kalsekar Technical campus* 
-*               **Mrs. Kalpana Meher Bodke** *Asst. Prof Kalsekar Technical campus* 
+* Our faculties 
+* **Mr. Muhammed Salman Shamsi** *Asst. Prof Kalsekar Technical campus* 
+* **Mrs. Kalpana Meher Bodke** *Asst. Prof Kalsekar Technical campus* 
