@@ -1,5 +1,5 @@
 # Project Title
-Accident Assistance Automation using Google Map API ,Twilio api, OOPHP, JQuery, AJAX, Bootstrap4, CSS3, MySQL, Apache
+Accident Assistant Automation using Google Map API ,Twilio api, OOPHP, JQuery, AJAX, Bootstrap4, CSS3, MySQL, Apache
 
 ## Getting Started
 All the source code is available here
@@ -87,8 +87,8 @@ Start using the web app by opening the url localhost/Accident-assistant-automati
 
 ## Authors
 
-* **Shadab Shaikh** - *Tweaking with twilio api, registration page,Help center page, designing database and architecturing the project*  - [shadabsk](https://github.com/shadabsk)
-* **Obaid Kazi** - *registration page, designing the homepage, work on 'without vehicle module'* -  	- [ObaidKazi](https://github.com/ObaidKazi)
+* **Shadab Shaikh** - *Tweaking with twilio api, tweaking google map api, registration page, Help center page, designing database, architecturing the project, Generating dynamic pre-recorded message*  - [shadabsk](https://github.com/shadabsk)
+* **Obaid Kazi** - *registration page, designing the homepage, work on 'without vehicle module'* 	- [ObaidKazi](https://github.com/ObaidKazi)
 * **Khan Mohammed Rehan** - *Finding current location, nearby locations, tweaking google map api, architecturing the project* -  	- [rehannk](https://github.com/rehannk)
 * **Mohd Adnan Ansari** - *Full design of the complete system and finding current location* -  	- [adnannet8425](https://github.com/adnannet8425)
 
