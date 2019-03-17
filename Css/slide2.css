@@ -1,0 +1,206 @@
+.aboutclr{
+  background-color: cyan;
+}
+.profile {
+    border:1px solid #8c8b8b;
+  margin-top: 10px;
+    margin-left:50px; 
+    display:flex;
+    padding: 0 25px;
+    height: 250px;
+    width: 550px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+.profile1{
+    border:1px solid #8c8b8b;
+    display:flex;
+    margin-left:700px; 
+    padding: 0 25px;
+    height: 250px;
+    width: 550px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+.profile2{
+    border:1px solid #8c8b8b;
+    display:flex;
+    margin-top: 10px;
+    margin-left:50px; 
+    padding: 0 25px;
+    height: 250px;
+    width: 550px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+.inp1{
+  display:flex;
+  top: 0px;
+  width: 90px;
+  height: 200px;
+  margin-bottom:10px; 
+}
+.cline{
+  display: flex;
+  border-right: 2px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+.inp2{
+  display: flex;
+  margin-left: 30px;
+  margin-top: 0px;
+  width: 100%;
+  height: 250px;
+}
+img{
+  margin-top: 20px;
+  width: 100px;
+  height: 170px;
+  border-radius: 20px;
+
+}
+p{
+  margin-left:10px; 
+}
+.line{
+
+  width: 230px;
+  border-bottom: 1px solid #8c8b8b;
+}
+
+/*contact form*/
+    .inputText1 {
+  font-size: 16 px;
+  margin-top:6%;
+  margin-left: 8%;
+  width: 80%;
+  height: 35px;
+  border: 0;
+  outline: 0;
+   background-color:white;
+  border-bottom: 2px solid black;
+}
+
+input[type="submit"]{
+    margin:auto;
+    width:100%;
+    background-color: #18d26e;
+    color: #ffffff;
+    border-radius: 2px;
+    border:0;
+    height: 35px;
+    font-size: 14pt;
+    margin-bottom: 2%;
+}
+.dob{
+    margin-top: 2%;
+    width:80%;
+}
+.contact{
+    display: block;
+    width: 40%;
+    height: 40%;
+    margin: 10px;
+    border:1px solid black;
+    color: white;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-top: 9%;
+    background-color: ;
+}
+.noresize{
+  resize: none;
+}
+    textarea {
+    margin-left: 8%;
+    margin-top: 4%;
+    width: 80%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    height: 4.5em;
+    transition: height .3s ease-out;
+  }
+    textarea:focus {
+    height: 8em;
+  }
+
+    .text-block {
+  margin-left: 0px;
+  position: absolute; /* Position the background text */
+  bottom: 120px; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */
+ } 
+.topnav a:hover {
+  background-color:red;
+}
+.about{
+  margin-top: 50px;
+  }
+ .abouthr
+{
+  height:5px;
+  width:100%;
+  background-color:black;
+}
+.contact{
+  background:white;
+  color: black;
+}
+
+  .text-block-ben {
+  margin-top:10px; 
+  margin-left: 0px;
+  width: 300px;
+  height: 250px;
+  position: absolute; /* Position the background text */
+  top: 70px; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  border-radius: 30%;
+  padding: 10px; /* Some padding */
+ }
+
+ .floating-label {
+  position: absolute;
+  pointer-events: none;
+  left: 20px;
+  margin-left:32%;
+  top: 18px;
+  transition: 0.2s ease all;
+}
+
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label{
+  top: -11px;
+  bottom: 100px;
+  left: 20px;
+  font-size: 16pt;
+  opacity: 1;
+}
+
+
+/* Scroll Button*/
+.scrollToTop{
+    position:fixed;
+    top:80%;
+    right:0px;
+}
