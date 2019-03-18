@@ -6,7 +6,7 @@ All the source code is available here
 * Copy this repo directory into xampp->htdocs folder and paste it (XAMPP server is used for apache and mysql)
 * enable apache and mysql server from xampp
 * install the composer and paste vendor autoload package inside home and update the Fetchdet.php and Fetchdet1.php with appropriate file path on line 3
-* The database is available inside Database directory with file named accidentalassistance.sql and schema designed built on workbench. Import the accidentalassistance.sql file through phpmyadmin or any sql server.
+* The database is available inside Database directory with file named accidentalassistance.sql and schema designed built on workbench. Do the forward engineering of accidentalassistance.mwb file through phpmyadmin or any sql server via workbench.
 * Open any html 5 browser and navigate to localhost/Accident-assistant-automation to start using the web app
 
 
@@ -48,12 +48,23 @@ Note :  if getting any local issuer certificate error follow the link given belo
 ```
 [Click here to see the solution](https://support.twilio.com/hc/en-us/articles/360007853433-Troubleshooting-Certificate-Errors-from-the-Twilio-REST-API)
 
+
+```
+Generate your own twilio api. Follow the link to see the procedures.
+
+```
+[Click here to see how to generate twilio api](https://www.twilio.com/docs/)
+
 ```
 Generate your own google map api. Follow the link to see the procedures.
 
 Note: if getting any authorized issue. just enable all the apis (Javascript , geolocation and geocoding API)
 ```
 [Click here to see how to generate google map api](https://developers.google.com/maps/documentation/javascript/get-api-key)
+
+```
+update the Fetchdet.php and Fetchdet1.php with your generated apis key as mentioned in the code
+```
 
 
 step 4
@@ -64,7 +75,7 @@ enabling apache and mySQL server in xampp application
 
 step 4
 ```
-navigating to localhost/phpmyadmin and import accidentalassistance.sql file
+navigating to localhost/phpmyadmin and Do the forward engineering of accidentalassistance.mwb file through phpmyadmin or any sql server via workbench file
 ```
 
 step 5
