@@ -111,7 +111,7 @@
     }
     function showPosition(position)
     {
-      var locAPI = "https://maps.googleapis.com/maps/api/geocode/json?latlng="+position.coords.latitude+","+position.coords.longitude+"&sensor=true"+"&key=AIzaSyDWggYIrLKxnpwvMarpYgQIOJAwuEGrCxs";
+      var locAPI = "https://maps.googleapis.com/maps/api/geocode/json?latlng="+position.coords.latitude+","+position.coords.longitude+"&sensor=true"+"&key=Enter api key here";
 
       var latitude = position.coords.latitude;
       var longitude = position.coords.longitude;
