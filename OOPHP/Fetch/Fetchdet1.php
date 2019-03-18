@@ -30,10 +30,10 @@ class Fetchdet extends Database{
 		}
 		if($res){
 			// shadab
-			$account_sid = 'AC074239650b3100e30a480c78d22616cd';
-			$auth_token = 'ac66b0a628d4e66f87d378690312db25';
-			$twilio_number = "+12012920672";
-			$to_number2 = "+917506455707"; //hospital
+			$account_sid = 'enter twilio ssid here';
+			$auth_token = 'enter auth token here';
+			$twilio_number = "enter twilio number here";
+			$to_number2 = "enter to number here"; //hospital
 			$messages="HelloAccidenthasoccuredat".$_SESSION['vehreg'];
 			$client = new Client($account_sid, $auth_token);
 			try{
@@ -41,7 +41,7 @@ class Fetchdet extends Database{
 					    $to_number2,
 					    $twilio_number,
 					   	array(
-					        "url" => "https://handler.twilio.com/twiml/EH22cc2702aed657e3a3955b2e8114a956?Message=".$messages
+					        "url" => "generate url and paste it here=".$messages
 					    )
 				);
 			}
@@ -50,7 +50,7 @@ class Fetchdet extends Database{
 				    $to_number2,
 				    $twilio_number,
 				   	array(
-				        "url" => "https://handler.twilio.com/twiml/EH22cc2702aed657e3a3955b2e8114a956?Message=".$messages
+				        "url" => "generate url and paste it here=".$messages
 				    )
 				);
 			}
