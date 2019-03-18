@@ -6,7 +6,7 @@ All the source code is available here
 * Copy this repo directory into xampp->htdocs folder and paste it (XAMPP server is used for apache and mysql)
 * enable apache and mysql server from xampp
 * install the composer and paste vendor autoload package inside home and update the Fetchdet.php and Fetchdet1.php with appropriate file path on line 3
-* The database is available inside Database directory with file named accidentalassistance.sql and schema designed built on workbench. Do the forward engineering of accidentalassistance.mwb file through phpmyadmin or any sql server via workbench.
+* The database is available inside Database directory with schema designed & built on workbench. Do the forward engineering of accidentalassistance.mwb file through phpmyadmin or any sql server via workbench.
 * Open any html 5 browser and navigate to localhost/Accident-assistant-automation to start using the web app
 
 
